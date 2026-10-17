@@ -543,6 +543,12 @@ body,
 }
 
 @media (min-width: 701px) and (max-height: 520px) {
+  #menu {
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
   #topbar { height: 36px; }
   #bottom { height: 118px; grid-template-columns: 112px minmax(0, 1fr) minmax(250px, 34vw); }
   #minimap { width: 108px; height: 96px; }
