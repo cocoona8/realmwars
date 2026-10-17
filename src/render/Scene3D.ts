@@ -168,7 +168,6 @@ export class Scene3D {
     tex.magFilter = THREE.NearestFilter
     tex.minFilter = THREE.NearestFilter
     tex.wrapS = tex.wrapT = THREE.ClampToEdgeWrapping
-    tex.flipY = false
     const mesh = new THREE.Mesh(
       new THREE.PlaneGeometry(MAP_W, MAP_H),
       new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthWrite: false }),
