@@ -1,0 +1,23 @@
+{
+  "name": "realm-wars",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/run.cjs dev",
+    "build": "node scripts/run.cjs build",
+    "preview": "node scripts/run.cjs preview",
+    "start": "node server/prod.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "phaser": "3.87.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "vite": "5.4.11"
+  }
+}
